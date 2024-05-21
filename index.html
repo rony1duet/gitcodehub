@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Code Hub</title>
+    <!-- Linking CSS files -->
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link id="main-css" rel="stylesheet" href="main.css">
+    <link id="style-css" rel="stylesheet" href="style.css" disabled>
+    <!-- Icon library -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Left and right covers of the book -->
+        <div class="cover cover-left"></div>
+        <div class="cover cover-right"></div>
+
+        <div class="book">
+            <!-- Left page with profile details -->
+            <div class="book-page page-left">
+                <div class="profile-page">
+                    <img src="profile_photo.jpg" alt="Profile Image">
+                    <h1>Md Rony Hossen</h1>
+                    <h3>My Digital Steps</h3>
+
+                    <div class="social-media">
+                        <!-- Social media links -->
+                        <a href="https://github.com/rony1duet"><i class='bx bxl-github bx-tada' ></i></i></a>
+                        <a href="https://www.linkedin.com/in/rony1duet"><i class='bx bxl-linkedin-square bx-tada' ></i></i></a>
+                        <a href="https://codeforces.com/profile/rony1duet"><i class='bx bxs-bar-chart-alt-2 bx-tada'></i></a>
+                        <a href="https://www.hackerrank.com/profile/rony1duet"><i class='bx bxs-terminal bx-tada'></i></a>
+                    </div>
+
+                    <p>Hello! <br>
+                        I'm a technology enthusiast. Explore my journey in programming, discover my projects and
+                        learn more about my emotions for technology and innovation.</p>
+
+                    <div class="btn-box">
+                        <!-- Buttons for resume and contact -->
+                        <a href="resume.pdf" class="btn">Get Resume</a>
+                        <a href="#contact-me" class="btn contact-me">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right page with work experience -->
+            <div class="book-page page-right turn" id="turn-1">
+                <div class="page-front">
+                    <h1 class="title">Experience</h1>
+                    <div class="workeduc-box">
+                        <!-- Work experience details -->
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar bx-tada'></i>2023 - Running</span>
+                            <h3>Computer Networking - Offline</h3>
+                            <p>Expertly setting up, managing, and optimizing networks for seamless connectivity and
+                                performance.</p>
+                        </div>
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar bx-tada'></i>2021 - 2023</span>
+                            <h3>Hardware Installation - Offline</h3>
+                            <p>Expertly installing hardware components for optimal performance and functionality.
+                                Ensuring seamless integration and reliable operation tailored to client specifications.
+                            </p>
+                        </div>
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar bx-tada'></i>2019 - 2021</span>
+                            <h3>Front End Designer - Fiverr</h3>
+                            <p>Crafting captivating web experiences with expertise in HTML, CSS, and JavaScript for
+                                visually stunning, tailored designs.</p>
+                        </div>
+                    </div>
+                    <span class="number-page">1</span>
+
+                    <!-- Button to navigate to the next page -->
+                    <span class="nextprev-btn" data-page="turn-1">
+                        <i class='bx bx-chevron-right'></i>
+                    </span>
+                </div>
+
+                <div class="page-back">
+                    <h1 class="title">Education</h1>
+                    <div class="workeduc-box">
+                        <!-- Education details -->
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar bx-tada'></i>2023 - Running</span>
+                            <h3>Bachelor of Science in Engineering</h3>
+                            <p>Currently studying Computer Science and Engineering at Dhaka University of Engineering &
+                                Technology.</p>
+                        </div>
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar bx-tada'></i>2018 - 2023</span>
+                            <h3>Diploma in Engineering</h3>
+                            <p>Diploma in Engineering in Computer Technology from Jessore Polytechnic Institute.</p>
+                        </div>
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar bx-tada'></i>2016 - 2018</span>
+                            <h3>Secondary School Certificate</h3>
+                            <p>Secondary School Certificate in Computer Technology from Jashore Govt. Technical School &
+                                College.</p>
+                        </div>
+                    </div>
+                    <span class="number-page">2</span>
+
+                    <!-- Button to navigate to the previous page -->
+                    <span class="nextprev-btn back" data-page="turn-1">
+                        <i class='bx bx-chevron-left'></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Right page with services and skills -->
+            <div class="book-page page-right turn" id="turn-2">
+                <div class="page-front">
+                    <h1 class="title">Projects</h1>
+                    <div class="services-box">
+                        <!-- Service details -->
+
+                        <div class="services-content">
+                            <i class='bx bx-code-block bx-tada'></i>
+                            <h3>Web Development</h3>
+                            <p>Web development projects showcasing available on GitHub.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+
+                        <div class="services-content">
+                            <i class='bx bx-desktop bx-tada'></i>
+                            <h3>Opencore Desktop</h3>
+                            <p>Optimized opencore EFI for AMD Ryzen 5 5600G Desktops</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+
+                        <div class="services-content">
+                            <i class='bx bx-laptop bx-tada'></i>
+                            <h3>Opencore Laptop</h3>
+                            <p>Optimized opencore EFI for Intel i3 6006U Laptops.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+
+                        <div class="services-content">
+                            <i class='bx bxs-bot bx-tada'></i>
+                            <h3>Arduino Robot</h3>
+                            <p>Arduino projects for sustainable living and enhanced comfort.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+
+                    </div>
+                    <span class="number-page">3</span>
+
+                    <!-- Button to navigate to the next page -->
+                    <span class="nextprev-btn" data-page="turn-2">
+                        <i class='bx bx-chevron-right'></i>
+                    </span>
+                </div>
+
+                <div class="page-back">
+                    <h1 class="title">My Skills</h1>
+                    <div class="skills-box">
+                        <!-- Skills details -->
+                        <div class="skills-content">
+                            <h3>Programming Language</h3>
+                            <div class="content">
+                                <span><i class='bx bx-code-curly bx-tada'></i>C</span>
+                                <span><i class='bx bxl-c-plus-plus bx-tada'></i>C++</span>
+                                <span><i class='bx bxl-java bx-tada'></i>Java</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-content">
+                            <h3>Database</h3>
+                            <div class="content">
+                                <span><i class='bx bxs-data bx-tada'></i>MySQL</span>
+                                <span><i class='bx bxl-postgresql bx-tada'></i>Postgre</span>
+                                <span><i class='bx bxl-firebase bx-tada'></i>Firebase</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-content">
+                            <h3>Operating System</h3>
+                            <div class="content">
+                                <span><i class='bx bxl-tux bx-tada'></i>Linux</span>
+                                <span><i class='bx bxl-windows bx-tada'></i>Windows</span>
+                                <span><i class='bx bxl-apple bx-tada'></i>macOS</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-content">
+                            <h3>Networking</h3>
+                            <div class="content">
+                                <span><i class='bx bxs-server bx-tada'></i>CCNA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="number-page">4</span>
+
+                    <!-- Button to navigate to the previous page -->
+                    <span class="nextprev-btn back" data-page="turn-2">
+                        <i class='bx bx-chevron-left'></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Right page with latest project and contact -->
+            <div class="book-page page-right turn" id="turn-3">
+                <div class="page-front">
+                    <h1 class="title">Latest Project</h1>
+                    <div class="protfolio-box">
+                        <!-- Project details -->
+                        <div class="img-box">
+                            <img src="recent_project.png" alt="Portfolio Image">
+                        </div>
+
+                        <div class="info-box">
+                            <div class="info-title">
+                                <h3>macOS for i3 6006U</h3>
+                                <a href="#">Preview<i class='bx bx-link-external bx-tada'></i></a>
+                            </div>
+                            <p>Hackintosh:</p>
+                            <p>Working with OpenCore entails researching, configuring, testing, and troubleshooting to
+                                establish a stable macOS installation. This enables a macOS experience on non-Apple
+                                hardware.
+                            </p>
+                        </div>
+
+                        <div class="btn-box">
+                            <!-- Buttons for source code and more projects -->
+                            <a href="#" class="btn">Source Code</a>
+                            <a href="#" class="btn">More Projects</a>
+                        </div>
+                    </div>
+                    <span class="number-page">5</span>
+
+                    <!-- Button to navigate to the next page -->
+                    <span class="nextprev-btn" data-page="turn-3">
+                        <i class='bx bx-chevron-right'></i>
+                    </span>
+                </div>
+
+                <div class="page-back">
+                    <h1 class="title">Contact Me</h1>
+                    <div class="contact-box" id="contact-me">
+                        <!-- Contact form -->
+                        <form action="#">
+                            <input type="text" class="field" placeholder="Full Name" required>
+                            <input type="email" class="field" placeholder="Email Address" required>
+                            <textarea name="" id="" cols="30" rows="10" class="field" placeholder="Your Message"
+                                required></textarea>
+                            <input type="submit" class="btn" value="Send Message">
+                        </form>
+                    </div>
+                    <span class="number-page">6</span>
+
+                    <!-- Button to navigate to the previous page -->
+                    <span class="nextprev-btn back" data-page="turn-3">
+                        <i class='bx bx-chevron-left'></i>
+                    </span>
+
+                    <!-- Button to navigate back to the profile -->
+                    <a href="#" class="back-profile">
+                        <p>Profile</p>
+                        <i class='bx bxs-user bx-tada'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Linking JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
