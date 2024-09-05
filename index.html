@@ -249,14 +249,14 @@
                     <h1 class="title">Contact Me</h1>
                     <div class="contact-box" id="contact-me">
                         <!-- Contact form -->
-                        <form action="send_mail.php" method="post">
-                            <input type="text" class="field" placeholder="Full Name" required>
-                            <input type="email" class="field" placeholder="Email Address" required>
-                            <textarea name="" id="" cols="30" rows="10" class="field" placeholder="Your Message"
-                                required></textarea>
+                        <form id="contact-form">
+                            <input type="text" class="field" id="name" placeholder="Full Name" required>
+                            <input type="email" class="field" id="email" placeholder="Email Address" required>
+                            <textarea id="message" cols="30" rows="10" class="field" placeholder="Your Message" required></textarea>
                             <input type="submit" class="btn" value="Send Message">
                         </form>
                     </div>
+
                     <span class="number-page">6</span>
 
                     <!-- Button to navigate to the previous page -->
@@ -275,6 +275,7 @@
     </div>
 
     <!-- Linking JavaScript file -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="script.js"></script>
 </body>
 

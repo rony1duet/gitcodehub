@@ -105,3 +105,32 @@ pages.forEach((_, index) => {
         }, 500);
     }, (index + 1) * 200 + 2100);
 });
+
+
+(function() {
+    emailjs.init("D-i0Bm7N9Qy3VFB3v");
+
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        // Collect form data
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var message = document.getElementById('message').value;
+
+        // Prepare template parameters
+        var templateParams = {
+            from_name: name,
+            from_email: email,
+            message: message
+        };
+
+        // Send the email
+        emailjs.send('service_mtt4ges', 'template_3zdzphu', templateParams)
+            .then(function(response) {
+                alert("Message sent successfully!");
+            }, function(error) {
+                alert("Failed to send message. Please try again later.");
+            });
+    });
+})();
